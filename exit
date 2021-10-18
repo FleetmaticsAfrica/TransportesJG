@@ -1,0 +1,24 @@
+[0;1;32m●[0m apache2.service - The Apache HTTP Server
+     Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Fri 2021-10-01 14:44:43 UTC; 2min 15s ago
+       Docs: https://httpd.apache.org/docs/2.4/
+    Process: 11649 ExecStart=/usr/sbin/apachectl start (code=exited, status=0/SUCCESS)
+   Main PID: 11675 (apache2)
+      Tasks: 12 (limit: 9512)
+     Memory: 21.1M
+     CGroup: /system.slice/apache2.service
+             ├─11675 /usr/sbin/apache2 -k start
+             ├─11676 /usr/sbin/apache2 -k start
+             ├─11678 /usr/sbin/apache2 -k start
+             ├─11679 /usr/sbin/apache2 -k start
+             ├─11680 /usr/sbin/apache2 -k start
+             ├─11681 /usr/sbin/apache2 -k start
+             ├─11688 /usr/sbin/apache2 -k start
+             ├─11689 /usr/sbin/apache2 -k start
+             ├─11690 /usr/sbin/apache2 -k start
+             ├─11691 /usr/sbin/apache2 -k start
+             ├─11692 /usr/sbin/apache2 -k start
+             └─11693 /usr/sbin/apache2 -k start
+
+Oct 01 14:44:43 SERVER1UBUNTU20 systemd[1]: Starting The Apache HTTP Server...
+Oct 01 14:44:43 SERVER1UBUNTU20 systemd[1]: Started The Apache HTTP Server.
